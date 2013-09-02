@@ -80,21 +80,22 @@ html[xmlns] .clearfix { display: block; }
 
 
 #galleria{margin:0 auto;
-	margin-top:150px;}
+	margin-top:250px;}
 
 
 #logo-center{margin:0 auto;
-	width:13%;
+	width:15%;
 	float:center;}
 
 
-#pic1{float:left;
 
-	}
-#pic2{float:right;}
-
-
-
+h2{margin:0 auto;
+	margin-top:10px;
+	color:white;
+	font-family:messner-thin;
+	font-size:2em;
+	float:center;
+	width:15%;}
 
 header{
 	width:100%;
