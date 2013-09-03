@@ -85,7 +85,7 @@ html[xmlns] .clearfix { display: block; }
 
 #logo-center{margin:0 auto;
 	width:15%;
-	float:center;}
+	}
 
 
 
@@ -94,8 +94,9 @@ h2{margin:0 auto;
 	color:white;
 	font-family:messner-thin;
 	font-size:2em;
-	float:center;
-	width:15%;}
+	width:10%;
+	height:20%;
+	background-color:blue}
 
 header{
 	width:100%;
