@@ -6,14 +6,22 @@
 <link rel="icon" type="image/ico" href="favicon.ico">
 <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css">
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-<script src="galleria/galleria-1.2.8.min.js"></script>
-<style>
-    #galleria{ width: 100%; height: 1000px; background: #000 }
-</style>
+
+<link rel="stylesheet" href="flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="jquery.flexslider.js"></script>
+
+
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+
 
 </head>
 <body>
+
 <header>
 
 <h1 id="logo-center">
@@ -37,27 +45,13 @@
 
 
 
-<div id="galleria">
-    <img src="images/johncage1.jpg" alt="John Cage Artist Book">
-    <img src="images/johncage2.jpg" alt="John Cage Artist Book spread">
-    <img src="images/mashup.jpg"    alt="Mashup - breakdown of multi layered song ">
-	<img src="images/editorialspreads1.jpg"    alt="Editorial Spread ">
-	<img src="images/editorialspreads2.jpg"    alt="Editorial Spread ">
-	<img src="images/editorialspreads3.jpg"    alt="Editorial Spread ">
-	<img src="images/elementslogo.jpg"    	   alt="Elements Logo ">
-	<img src="images/music.jpg"    	   		   alt="Music Poster ">
-	<img src="images/onomatopoeia.jpg"    	   alt="Onomatopoeia Poster ">
-	<img src="images/proxyspread.jpg"    	   alt="Technology Magazine Spread ">
 
+    
 
 
 </div>
 
-<script>
-    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
 
-	Galleria.run('#galleria');
-	</script>
 
 	
 
@@ -68,11 +62,23 @@
 
 </section>
 
- 
+ 	<div class="flexslider">
+	  <ul class="slides">
+	    <li>
+	      <img src="images/johncage1.jpg" alt="John Cage Artist Book" />
+	    </li>
+	    <li>
+	      <img src="images/johncage2.jpg" alt="John Cage Artist Book spread" />
+	    </li>
+	    <li>
+	      <img src="images/mashup.jpg"    alt="Mashup - breakdown of multi layered song " />
+	    </li>
+	  </ul>
+	</div>
 
-<footer>
-	
-</footer>
+
  </body>
+<footer>
 
+</footer>
 </html>
