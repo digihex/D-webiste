@@ -76,38 +76,11 @@ html[xmlns] .clearfix { display: block; }
 
 
 
-.pt-perspective {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    perspective: 1200px;
-    transform-style: preserve-3d;
+.flex-container{margin:0 auto;
+	width: 100%;
 }
- 
-.pt-page {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    visibility: hidden;
-    overflow: hidden;
-    backface-visibility: hidden;
-    transform: translate3d(0, 0, 0);
-}
- 
-.pt-page-current,
-.no-js .pt-page {
-    visibility: visible;
-}
- 
-.no-js body {
-    overflow: auto;
-}
- 
-.pt-page-ontop {
-    z-index: 999;
-}
+li{margin:0 auto;
+	width:50%;}
 
 
 
