@@ -76,11 +76,7 @@ html[xmlns] .clearfix { display: block; }
 
 
 
-.flex-container{margin:0 auto;
-	width: 100%;
-}
-li{margin:0 auto;
-	width:50%;}
+ 
 
 
 
@@ -117,7 +113,7 @@ a{margin:0 auto;
 	text-align:center;
 	text-decoration:none;
 	color:white;
-	font-size:1.5em;
+	font-size:3vmin;
 	font-family:messner-thin;
 	margin-left:5%;
 	letter-spacing:.2em;
@@ -156,6 +152,7 @@ nav{position:absolute;
 		background-color:red;
 		height:auto;
 		margin:0 auto;
+	  
 		}
 	
 	footer{
@@ -170,5 +167,5 @@ nav{position:absolute;
 		color:white;
 		width:100%;
 		text-align:center;
-		font-size:2em;
+		
 		}
